@@ -7,7 +7,7 @@ _things = ["popbob", "Pyrobyte", "xcc2", "chezhead", "ITristan", "Fit", "Jared20
            "Team Veteran", "The Book Club", "TeamNoTrees", "Emperium", "Vortex Coalition", "NFE", "The Lands",
            "Ziggy Base", "Space Valkyria", "Asgard II", "Mu Megabase", "Hitlerwood", "Plugin Town", "2b2t", "Impact",
            "KAMI Blue", "Future", "Phobos", "Pyro", "RusherHack", "SalHack", "Wurst", "BarrenDome", "AntVenom",
-           "TheJudgeHolden", "The Valley of Wheat"]
+           "TheJudgeHolden", "The Valley of Wheat", "1.12", "1.13", "1.14", "1.15", "1.16", "1.17"]
 
 _actions = ["%1 %v как %2 на 2b2t", "Вся правда о %1 на 2b2t", "%1 %v 24 часа на %2",
             "Война %1 против %2 на 2b2t", "Как %1 %v 5 лет на %2", "Как %1 %v %2 на 2b2t",
