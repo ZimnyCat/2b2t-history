@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+apply plugin : 'java'
+
+ext {
+    javaMainClass = 'Start'
+}
+
+application {
+    mainClassName = javaMainClass
+}
+
+group ''
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+}
+sourceSets {
+    main.java.srcDir "src/main/java"
+}
+jar {
+    manifest {
+        attributes(
+                'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+                'Main-Class': 'Start'
+        )
+    }
+}
