@@ -1,4 +1,0 @@
-Start.java
- Start
-Generator.java
- Generator
