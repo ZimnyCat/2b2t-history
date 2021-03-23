@@ -1,6 +1,6 @@
 from time import sleep
-import generator
+import historygen
 
 while True:
-    print(generator.gen())
+    print(historygen.gen())
     sleep(2)
